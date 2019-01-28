@@ -86,7 +86,7 @@
     	        </war>
    </target>
     <target name="compile" depends="init" >
-     <javac destdir="build/classes" debug="true" srcdir="src">
+     <javac destdir="build/classes" debug="true" srcdir="build/classes">
      <classpath refid="compile.classpath"/>
    </javac>
   </target>
