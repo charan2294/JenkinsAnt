@@ -44,12 +44,7 @@
     <target name="init">
         <mkdir dir="build/classes"/>
     	<mkdir dir="dist" />
-        <copy includeemptydirs="false" todir="build/classes">
-            <fileset dir="src">
-                <exclude name="**/*.launch"/>
-            </fileset>
-        </copy>
-    </target>
+     </target>
     	<target name="clean">
     	        <delete dir="dist" />
     	        <delete dir="build" />
